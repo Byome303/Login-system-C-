@@ -6,10 +6,10 @@
 
 
 
-using namespace std;
-int x = 1, y=1;
+using namespace std;					// x is a variable to count how many times the user failed to log in 
+int x = 1;
 
-bool LoggedIn()
+bool LoggedIn()						//initiation of the function to log in 
 
 {
 
@@ -67,7 +67,7 @@ int main()
 
 	{
 
-		string username, password;
+		string username, password;					//Registering the user
 
 
 		cout << "select a username: ";
@@ -100,7 +100,7 @@ int main()
 
 	{
 
-		bool status = LoggedIn();
+		bool status = LoggedIn();					//Logging in 
 
 
 		if (!status)
