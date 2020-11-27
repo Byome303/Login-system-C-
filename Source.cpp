@@ -85,7 +85,7 @@ int main()
 		file.open("Login.txt", ios_base::app);
 
 
-		file << endl << username << endl << password;
+		file << username << endl << password << endl;
 
 		file.close();
 
