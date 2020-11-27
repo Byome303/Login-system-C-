@@ -104,16 +104,16 @@ int main()
 
 
 		if (!status)
-			
+
 		{
 			cout << "False Login!" << endl;
 
-			if (x<3)
+			if (x < 3)
 			{
 				x++;
 				cout << "x=" << x << endl;
 				main();
-		
+
 			}
 			else
 			{
